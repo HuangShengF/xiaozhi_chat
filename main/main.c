@@ -17,7 +17,7 @@
 
 // edit snfjk
 
-// fu edit 234567
+// fu edit 
 
 // 创建缓冲区
 typedef struct
