@@ -15,6 +15,8 @@
 #include "bsp_ws2812.h"
 #include "bsp_ledc.h"
 
+// edit snfjk
+
 typedef struct
 {
     RingbufHandle_t sr_2_encode;
