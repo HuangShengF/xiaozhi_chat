@@ -25,6 +25,8 @@ typedef struct
 buf_t my_buf;
 
 void wifi_secc(void);
+
+// 主函数任务
 void app_main(void)
 {
     bsp_sound_init();
