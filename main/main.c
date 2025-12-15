@@ -30,7 +30,7 @@ typedef struct
 } buf_t;
 buf_t my_buf;
 
-// wifi回调函数
+// wifi回调函数,,wifi注册成功底层会调用这个函数
 void wifi_secc(void);
 
 // 主函数任务
