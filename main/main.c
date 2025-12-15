@@ -33,7 +33,7 @@ buf_t my_buf;
 // wifi回调函数,,wifi注册成功底层会调用这个函数
 void wifi_secc(void);
 
-// 主函数任务
+// 主函数任务，这个也是FreeRTOS创建的任务
 void app_main(void)
 {
     bsp_sound_init();
