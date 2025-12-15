@@ -16,7 +16,7 @@
 #include "bsp_ledc.h"
 
 // edit snfjk
-
+// 创建缓冲区
 typedef struct
 {
     RingbufHandle_t sr_2_encode;
