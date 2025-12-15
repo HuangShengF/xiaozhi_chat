@@ -18,6 +18,8 @@
 // edit snfjk
 
 // fu edit 
+
+// 创建缓冲区
 typedef struct
 {
     RingbufHandle_t sr_2_encode;
