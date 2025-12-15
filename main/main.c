@@ -26,6 +26,7 @@ typedef struct
 } buf_t;
 buf_t my_buf;
 
+// wifi回调函数
 void wifi_secc(void);
 
 // 主函数任务
@@ -154,6 +155,7 @@ void vad_change_cb(vad_state_t state)
     }
 }
 
+// 把服务器的音频数据，解码后，发送给解码任务
 void audio_broadcast(char *data, size_t size)
 {
     xRingbufferSend(my_buf.ws_2_decode, data, size, portMAX_DELAY);
